@@ -1,0 +1,332 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  color: #999;
+  background: #f5f5f5;
+  align-items: center;
+overflow-x: hidden;
+}
+
+.btn-custom {
+  background: #652c8f;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 12px 60px;
+  border-radius: 1px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  transition: 0.5s ease-in-out all;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  box-shadow: 0 0 0 0.3rem #d6c3d8;
+}
+
+.three-btn {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 22px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 28px;
+  color: #652c8f;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #4b4c4e;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #652c8f;
+  line-height: 24px;
+}
+
+.input-group-text {
+  height: 45px;
+}
+
+/* HEADER SECTION STYLES */
+
+header {
+  background: white;
+  box-shadow: 0px 0px 18px 8px #cdcdcd;
+}
+
+@media screen and (max-width: 768px) {
+  .header-img1 {
+    width: 170px;
+  }
+
+  .header-img2 {
+    width: 100px;
+  }
+
+  .three-btn {
+    text-transform:capitalize;
+    font-size: 16px;
+    padding: 12px 10px;
+  }
+
+  .add-padding {
+    padding-right: 15px !important;
+  }
+  #msform fieldset {
+    width: 100% !important;
+    margin: auto !important;
+    padding: 0 10px !important;
+}
+.input-group .input-group-prepend{
+  width: 100% !important;
+}
+.input-group .input-group-prepend div{
+  width: 100% !important;
+  border-radius: 2px !important;
+}
+}
+
+
+
+
+
+/* FORM ONE STYLES */
+
+#form-one .form-main {
+  background: #fff;
+  padding: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 24px 0px #c1c1c1;
+}
+
+#form-one .form-main select {
+  background: #f5f5f5;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 1px #eee;
+}
+
+#form-one .form-main input[type="text"] {
+  background: #f5f5f5;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 1px #eee;
+}
+
+#form-one .heading {
+  padding: 50px 0;
+}
+
+
+#form-one .p-bottom {
+  font-size: 14px;
+  color: #767676;
+}
+
+
+/* FORM TWO STYLES */
+
+#form-two .form-main {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 24px 0px #c1c1c1;
+}
+
+#form-two .form-main.one:before {
+  content: "";
+  background-size: auto;
+  background: url(../images/pricing/3.png);
+  position: absolute;
+  top: 0px;
+  right: 0;
+  transform: rotate(0deg);
+  width: 82px;
+  height: 96px;
+}
+
+#form-two .box-para {
+  position: absolute;
+  right: 10px;
+  transform: rotate(45deg);
+  top: 11px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 15px;
+  text-align: center;
+}
+
+#form-two .heading {
+  padding: 50px 0;
+}
+
+#form-two img {
+  padding: 30px 0;
+}
+
+#form-two .pricing-duration {
+  font-weight: 700;
+  color: #4b4c4e;
+}
+
+#form-two .pricing-main span {
+  font-size: 14px;
+}
+
+#form-two .btn-custom {
+  padding: 12px 35px;
+}
+
+
+/* FORM THREE STYLES */
+
+#form-three .form-main {
+  background: #fff;
+  padding: 20px 50px 50px 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 24px 0px #c1c1c1;
+}
+
+#form-three .form-main select {
+  background: #f5f5f5;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 1px #eee;
+}
+
+#form-three .form-main input[type="text"] {
+  background: #f5f5f5;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 1px #eee;
+}
+
+#form-three .heading {
+  padding: 50px 0;
+}
+
+
+#form-three .p-bottom {
+  font-size: 14px;
+  color: #767676;
+}
+  
+
+
+/*form styles*/
+#msform {
+  /* width: 400px; */
+      /* height: inherit; */
+	margin: 50px auto;
+	text-align: center;
+}
+#msform fieldset {
+	/* background: white; */
+	border: 0 none;
+	border-radius: 3px;
+	/* box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); */
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+	    width: 120px;
+    font-weight: 600;
+    padding: 14px 15px;
+    letter-spacing: 0.5px;
+    margin: 10px 5px;
+    margin: 10px 5px;
+    background: #652c8f;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 1px;
+    word-spacing: 2px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out all;
+}
+#msform .action-button:hover {
+  color: #fff;
+  box-shadow: 0 0 0 0.3rem #d6c3d8;
+}
+
+
+#inlineFormInputGroup{
+  width: auto !important;
+}
+
+
+
+
+/* FOOTER STYLES */
+
+footer {
+  position: relative;
+    background: #555555;
+    padding: 14px 20px;
+    color: #b5b5b5;
+    box-shadow: 0px 0px 10px 0px #a5a5a5;
+    border-top: 10px solid #652c8f;
+    /*margin-bottom: 60px;*/
+}
+footer a{
+  color:#b5b5b5;
+}
+footer a:hover {
+    color: #fff;
+    transition: 0.5s ease-in-out all;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 668px) {
+    footer .developer a {
+        float: left !important;
+
+    }
+  }
